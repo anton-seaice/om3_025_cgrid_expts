@@ -1,0 +1,63 @@
+format: yamanifest
+version: 1.0
+---
+work/access-om3.cice.r.1901-03-27-00000.nc:
+  fullpath: /scratch/tm70/as2285/access-om3/archive/ndte_1200-perturb-e7b9d4a0/restart000/access-om3.cice.r.1901-03-27-00000.nc
+  hashes:
+    binhash: a7591e76253c0764300b2dfc93e10dfb
+    md5: 9461110c17f75fd196c1442d9a410db7
+work/access-om3.cpl.r.1901-03-27-00000.nc:
+  fullpath: /scratch/tm70/as2285/access-om3/archive/ndte_1200-perturb-e7b9d4a0/restart000/access-om3.cpl.r.1901-03-27-00000.nc
+  hashes:
+    binhash: 752f6fef602700699ca4e46ca805a681
+    md5: 71846e997a4ef1d6a59c7f8742ebc730
+work/access-om3.datm.r.1901-03-27-00000.nc:
+  fullpath: /scratch/tm70/as2285/access-om3/archive/ndte_1200-perturb-e7b9d4a0/restart000/access-om3.datm.r.1901-03-27-00000.nc
+  hashes:
+    binhash: adccf19b174fc689b632b4bfbfff46a6
+    md5: 71cf8001553bc4a14cb6d0711787270e
+work/access-om3.drof.r.1901-03-27-00000.nc:
+  fullpath: /scratch/tm70/as2285/access-om3/archive/ndte_1200-perturb-e7b9d4a0/restart000/access-om3.drof.r.1901-03-27-00000.nc
+  hashes:
+    binhash: 48008c032b2a6a877264329d5d766911
+    md5: 4762a202be1be503b80e63ee86ba48e3
+work/access-om3.mom6.r.1901-03-27-00000.nc:
+  fullpath: /scratch/tm70/as2285/access-om3/archive/ndte_1200-perturb-e7b9d4a0/restart000/access-om3.mom6.r.1901-03-27-00000.nc
+  hashes:
+    binhash: 270a11b953dbf56665ebd1f30c12306f
+    md5: 5fdacdf3a05df270fe2e17de78a873d1
+work/access-om3.mom6.r.1901-03-27-00000_1.nc:
+  fullpath: /scratch/tm70/as2285/access-om3/archive/ndte_1200-perturb-e7b9d4a0/restart000/access-om3.mom6.r.1901-03-27-00000_1.nc
+  hashes:
+    binhash: be6cb5e0d9cdc32a8c8b65bb000ce7fe
+    md5: 8b15bab7b58fbf2b8f84145c7a5c4c37
+work/access-om3.mom6.r.1901-03-27-00000_2.nc:
+  fullpath: /scratch/tm70/as2285/access-om3/archive/ndte_1200-perturb-e7b9d4a0/restart000/access-om3.mom6.r.1901-03-27-00000_2.nc
+  hashes:
+    binhash: b6d370e9215eaf1252b23dff74d76e30
+    md5: 95ce3c1dd5a11882131c5771cb24fe0d
+work/rpointer.atm:
+  fullpath: /scratch/tm70/as2285/access-om3/archive/ndte_1200-perturb-e7b9d4a0/restart000/rpointer.atm
+  hashes:
+    binhash: 141d274ebc66459d61dcdca49a48cbba
+    md5: b1dde45d26a2ee81134af8ef2230e290
+work/rpointer.cpl:
+  fullpath: /scratch/tm70/as2285/access-om3/archive/ndte_1200-perturb-e7b9d4a0/restart000/rpointer.cpl
+  hashes:
+    binhash: 94ded62928da60cf2d5add7f09c47b6f
+    md5: 09129fff0ffc1019a42eb64c109208f7
+work/rpointer.ice:
+  fullpath: /scratch/tm70/as2285/access-om3/archive/ndte_1200-perturb-e7b9d4a0/restart000/rpointer.ice
+  hashes:
+    binhash: 5114493d1da67f7f80a7494325edbf14
+    md5: 91edb16881f2d0e6d504a505c8d5a7fd
+work/rpointer.ocn:
+  fullpath: /scratch/tm70/as2285/access-om3/archive/ndte_1200-perturb-e7b9d4a0/restart000/rpointer.ocn
+  hashes:
+    binhash: f9f0f8f37020ae24ed530726e3a520e2
+    md5: 7dc34e4398da54e24a67585b231db130
+work/rpointer.rof:
+  fullpath: /scratch/tm70/as2285/access-om3/archive/ndte_1200-perturb-e7b9d4a0/restart000/rpointer.rof
+  hashes:
+    binhash: e652e3ed7a3fc0fe1b07ef80a7bdd0dc
+    md5: fb42ca72d9f97e4e12d78079acf16f0d

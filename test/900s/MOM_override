@@ -1,0 +1,19 @@
+! This file was written by the script xxx 
+! and records the non-default parameters used at run-time.
+
+#override DT = 900               ! [s]
+                                 ! The (baroclinic) dynamics time step.  The time-step that is actually used will
+                                 ! be an integer fraction of the forcing time-step (DT_FORCING in ocean-only mode
+                                 ! or the coupling timestep in coupled mode.)
+#override DT_THERM = 900         ! [s] default = 1800.0
+                                 ! The thermodynamic and tracer advection time step. Ideally DT_THERM should be
+                                 ! an integer multiple of DT and less than the forcing or coupling time-step,
+                                 ! unless THERMO_SPANS_COUPLING is true, in which case DT_THERM can be an integer
+                                 ! multiple of the coupling timestep.  By default DT_THERM is set to DT.
+#override DTBT = -0.98           ! [s or nondim] default = -0.98
+                                 ! The barotropic time step, in s. DTBT is only used with the split explicit time
+                                 ! stepping. To set the time step automatically based the maximum stable value
+                                 ! use 0, or a negative value gives the fraction of the stable value. Setting
+                                 ! DTBT to 0 is the same as setting it to -0.98. The value of DTBT that will
+                                 ! actually be used is an integer fraction of DT, rounding down.
+

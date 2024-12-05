@@ -1,0 +1,63 @@
+format: yamanifest
+version: 1.0
+---
+work/access-om3.cice.r.1901-03-26-00000.nc:
+  fullpath: /scratch/tm70/as2285/access-om3/archive/grid_ice_B-perturb-e825e9ea/restart004/access-om3.cice.r.1901-03-26-00000.nc
+  hashes:
+    binhash: 7d32e6f637b3905a29b80f8d7af2fbd3
+    md5: d73d857680a7506beed45b38b5b6e43e
+work/access-om3.cpl.r.1901-03-26-00000.nc:
+  fullpath: /scratch/tm70/as2285/access-om3/archive/grid_ice_B-perturb-e825e9ea/restart004/access-om3.cpl.r.1901-03-26-00000.nc
+  hashes:
+    binhash: efc01c81d060db3db574fb80c21bd0f9
+    md5: d41faa577d9bc1cfd1decc8c565cc2fd
+work/access-om3.datm.r.1901-03-26-00000.nc:
+  fullpath: /scratch/tm70/as2285/access-om3/archive/grid_ice_B-perturb-e825e9ea/restart004/access-om3.datm.r.1901-03-26-00000.nc
+  hashes:
+    binhash: 95d0fb4a7f9bf85b94e8a09ba08e0964
+    md5: 71cf8001553bc4a14cb6d0711787270e
+work/access-om3.drof.r.1901-03-26-00000.nc:
+  fullpath: /scratch/tm70/as2285/access-om3/archive/grid_ice_B-perturb-e825e9ea/restart004/access-om3.drof.r.1901-03-26-00000.nc
+  hashes:
+    binhash: e18743fabcf4b0062926b52988a08e9d
+    md5: 4762a202be1be503b80e63ee86ba48e3
+work/access-om3.mom6.r.1901-03-26-00000.nc:
+  fullpath: /scratch/tm70/as2285/access-om3/archive/grid_ice_B-perturb-e825e9ea/restart004/access-om3.mom6.r.1901-03-26-00000.nc
+  hashes:
+    binhash: 8af6f92fadcf6b031143977178eadb42
+    md5: 959474ae95f6ccc9f2309d3833533be1
+work/access-om3.mom6.r.1901-03-26-00000_1.nc:
+  fullpath: /scratch/tm70/as2285/access-om3/archive/grid_ice_B-perturb-e825e9ea/restart004/access-om3.mom6.r.1901-03-26-00000_1.nc
+  hashes:
+    binhash: d413271accfd31f9996dfcef0dec2842
+    md5: fa70faf21cf261ca1ddfa26ca5068d9f
+work/access-om3.mom6.r.1901-03-26-00000_2.nc:
+  fullpath: /scratch/tm70/as2285/access-om3/archive/grid_ice_B-perturb-e825e9ea/restart004/access-om3.mom6.r.1901-03-26-00000_2.nc
+  hashes:
+    binhash: b83a72ce33ba7aa55cf91f3834cf9cd6
+    md5: 9bbd379f050bccb93a93b928a9366d41
+work/rpointer.atm:
+  fullpath: /scratch/tm70/as2285/access-om3/archive/grid_ice_B-perturb-e825e9ea/restart004/rpointer.atm
+  hashes:
+    binhash: b1c010c5337b6190fb221593ea4b4867
+    md5: 258719547a88cb9d3e87eb946865b7cd
+work/rpointer.cpl:
+  fullpath: /scratch/tm70/as2285/access-om3/archive/grid_ice_B-perturb-e825e9ea/restart004/rpointer.cpl
+  hashes:
+    binhash: 9d815462b73ae58e0b44931774622a8c
+    md5: 0325d13f939d3b31475f05098903d773
+work/rpointer.ice:
+  fullpath: /scratch/tm70/as2285/access-om3/archive/grid_ice_B-perturb-e825e9ea/restart004/rpointer.ice
+  hashes:
+    binhash: c95c6febc0a66aaf253efea0254bc8b6
+    md5: 5b2c2c5fe94618fd1235e8c389b4bc9c
+work/rpointer.ocn:
+  fullpath: /scratch/tm70/as2285/access-om3/archive/grid_ice_B-perturb-e825e9ea/restart004/rpointer.ocn
+  hashes:
+    binhash: 2f2d20408962596dda9c6897c5b0d6d0
+    md5: 03c5ba14c5353b8a48c84c43516d8e45
+work/rpointer.rof:
+  fullpath: /scratch/tm70/as2285/access-om3/archive/grid_ice_B-perturb-e825e9ea/restart004/rpointer.rof
+  hashes:
+    binhash: 9e0d9376b209b16ad9a3db63ce2a8a9c
+    md5: ea4e13e276c1cd00ffa098bb9511a4e7

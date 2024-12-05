@@ -1,0 +1,15 @@
+LOG: Building intake-esm datastore
+Successfully wrote ESM catalog json file to: file:///g/data/tm70/as2285/om3-scripts/expts_manager/no_ocean_cpl/archive/intake_esm_ds.json
+
+======================================================================================
+                  Resource Usage on 2024-12-03 15:47:42:
+   Job Id:             130002866.gadi-pbs
+   Project:            tm70
+   Exit Status:        0
+   Service Units:      6.39
+   NCPUs Requested:    24                     NCPUs Used: 24              
+                                           CPU Time Used: 00:16:37        
+   Memory Requested:   96.0GB                Memory Used: 30.18GB         
+   Walltime requested: 02:00:00            Walltime Used: 00:07:59        
+   JobFS requested:    100.0MB                JobFS used: 1.03KB          
+======================================================================================

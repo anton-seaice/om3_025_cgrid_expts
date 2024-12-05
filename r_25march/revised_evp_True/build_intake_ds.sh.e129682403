@@ -1,0 +1,4 @@
+/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.01/lib/python3.10/site-packages/access_nri_intake/source/builders.py:152: UserWarning: Unable to parse 386 assets. A list of these assets can be found in `.invalid_assets` attribute.
+  self.get_assets().validate_parser().parse().clean_dataframe()
+/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.01/lib/python3.10/site-packages/pydantic/deprecated/decorator.py:222: UserWarning: Unable to parse 386 assets/files. A list of these assets can be found in /jobfs/129682403.gadi-pbs/intake_esm_ds_invalid_assets.csv.
+  return self.raw_function(**d, **var_kwargs)

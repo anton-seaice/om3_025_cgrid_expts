@@ -1,0 +1,61 @@
+laboratory path:  /scratch/tm70/as2285/access-om3
+binary path:  /scratch/tm70/as2285/access-om3/bin
+input path:  /scratch/tm70/as2285/access-om3/input
+work path:  /scratch/tm70/as2285/access-om3/work
+archive path:  /scratch/tm70/as2285/access-om3/archive
+Found experiment archive: /scratch/tm70/as2285/access-om3/archive/advection_upwind-perturb-7160a35a
+nruns: 1 nruns_per_submit: 1 subrun: 1
+payu: Found modules in /opt/Modules/v4.3.0
+Loading input manifest: manifests/input.yaml
+Loading restart manifest: manifests/restart.yaml
+Loading exe manifest: manifests/exe.yaml
+Setting up access-om3
+Checking exe, input and restart manifests
+LOG: concatenating daily sea ice files in archive/output000
+doing ncrcat -O -L 5 -4 archive/output000/access-om3.cice.1901-03-01.nc archive/output000/access-om3.cice.1901-03-02.nc archive/output000/access-om3.cice.1901-03-03.nc archive/output000/access-om3.cice.1901-03-04.nc archive/output000/access-om3.cice.1901-03-05.nc archive/output000/access-om3.cice.1901-03-06.nc archive/output000/access-om3.cice.1901-03-07.nc archive/output000/access-om3.cice.1901-03-08.nc archive/output000/access-om3.cice.1901-03-09.nc archive/output000/access-om3.cice.1901-03-10.nc archive/output000/access-om3.cice.1901-03-11.nc archive/output000/access-om3.cice.1901-03-12.nc archive/output000/access-om3.cice.1901-03-13.nc archive/output000/access-om3.cice.1901-03-14.nc archive/output000/access-om3.cice.1901-03-15.nc archive/output000/access-om3.cice.1901-03-16.nc archive/output000/access-om3.cice.1901-03-17.nc archive/output000/access-om3.cice.1901-03-18.nc archive/output000/access-om3.cice.1901-03-19.nc archive/output000/access-om3.cice.1901-03-20.nc archive/output000/access-om3.cice.1901-03-21.nc archive/output000/access-om3.cice.1901-03-22.nc archive/output000/access-om3.cice.1901-03-23.nc archive/output000/access-om3.cice.1901-03-24.nc archive/output000/access-om3.cice.1901-03-25.nc archive/output000/access-om3.cice.1901-03-26.nc archive/output000/access-om3.cice.1901-03-27.nc archive/output000/access-om3.cice.1901-03-28.nc archive/output000/access-om3.cice.1901-03-29.nc archive/output000/access-om3.cice.1901-03-30.nc archive/output000/access-om3.cice.1901-03-31.nc archive/output000/access-om3.cice.1901-03.nc
+128143408.gadi-pbs
+128143435.gadi-pbs
+Loading input manifest: manifests/input.yaml
+Loading restart manifest: manifests/restart.yaml
+Loading exe manifest: manifests/exe.yaml
+payu: Found modules in /opt/Modules/v4.3.0
+qsub -q copyq -P tm70 -l walltime=10:00:00 -l ncpus=1 -l mem=2GB -l jobfs=10GB -N advection_upw_s -l wd -j n -v PAYU_PATH=/g/data/vk83/prerelease/apps/payu/dev/bin,MODULESHOME=/opt/Modules/v4.3.0,MODULES_CMD=/opt/Modules/v4.3.0/libexec/modulecmd.tcl,MODULEPATH=/g/data/tm70/as2285/spack0.22/release/modules/linux-rocky8-x86_64:/g/data/vk83/prerelease/modules:/g/data/hh5/public/modules:/etc/scl/modulefiles:/etc/scl/modulefiles:/etc/scl/modulefiles:/opt/Modules/modulefiles:/opt/Modules/v4.3.0/modulefiles:/apps/Modules/modulefiles -l storage=gdata/tm70+gdata/vk83 -- /g/data/vk83/prerelease/apps/payu/dev/bin/python /g/data/vk83/prerelease/apps/payu/dev/bin/payu-sync
+Writing manifests/input.yaml
+Writing manifests/restart.yaml
+/usr/bin/bash /g/data/vk83/apps/om3-scripts/payu_config/setup.sh
+mod access-om3-nuopc/mom-trunc
+mod access-om3/2024.09.mom-trunc
+mod nco/5.0.5
+git add /g/data/tm70/as2285/om3-scripts/expts_manager/test/advection_upwind/config.yaml
+git add /g/data/tm70/as2285/om3-scripts/expts_manager/test/advection_upwind/drv_in
+git add /g/data/tm70/as2285/om3-scripts/expts_manager/test/advection_upwind/fd.yaml
+git add /g/data/tm70/as2285/om3-scripts/expts_manager/test/advection_upwind/nuopc.runconfig
+git add /g/data/tm70/as2285/om3-scripts/expts_manager/test/advection_upwind/nuopc.runseq
+git add /g/data/tm70/as2285/om3-scripts/expts_manager/test/advection_upwind/input.nml
+git add /g/data/tm70/as2285/om3-scripts/expts_manager/test/advection_upwind/diag_table
+git add /g/data/tm70/as2285/om3-scripts/expts_manager/test/advection_upwind/ice_in
+git add /g/data/tm70/as2285/om3-scripts/expts_manager/test/advection_upwind/datm_in
+git add /g/data/tm70/as2285/om3-scripts/expts_manager/test/advection_upwind/datm.streams.xml
+git add /g/data/tm70/as2285/om3-scripts/expts_manager/test/advection_upwind/drof_in
+git add /g/data/tm70/as2285/om3-scripts/expts_manager/test/advection_upwind/drof.streams.xml
+git add /g/data/tm70/as2285/om3-scripts/expts_manager/test/advection_upwind/MOM_input
+git add /g/data/tm70/as2285/om3-scripts/expts_manager/test/advection_upwind/MOM_override
+git add manifests/input.yaml
+git add manifests/restart.yaml
+git add manifests/exe.yaml
+git commit -am "2024-11-06 10:34:45: Run 0"
+mpirun  -wdir /scratch/tm70/as2285/access-om3/work/advection_upwind-perturb-7160a35a -np 1440  /scratch/tm70/as2285/access-om3/work/advection_upwind-perturb-7160a35a/access-om3-MOM6-CICE6
+/usr/bin/bash /g/data/vk83/apps/om3-scripts/payu_config/archive.sh
+
+======================================================================================
+                  Resource Usage on 2024-11-06 12:08:57:
+   Job Id:             128129629.gadi-pbs
+   Project:            tm70
+   Exit Status:        0
+   Service Units:      4528.00
+   NCPUs Requested:    1440                   NCPUs Used: 1440            
+                                           CPU Time Used: 2165:45:18      
+   Memory Requested:   5.62TB                Memory Used: 664.73GB        
+   Walltime requested: 24:00:00            Walltime Used: 01:34:20        
+   JobFS requested:    10.0GB                 JobFS used: 8.16MB          
+======================================================================================

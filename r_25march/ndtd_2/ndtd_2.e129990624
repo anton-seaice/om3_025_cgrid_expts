@@ -1,0 +1,31 @@
+Loading access-om3/2024.09.mom-trunc
+  Loading requirement: access-om3-nuopc/mom-trunc
+Currently Loaded Modulefiles:
+ 1) access-om3-nuopc/mom-trunc     3) nco/5.0.5                5) pbs  
+ 2) access-om3/2024.09.mom-trunc   4) openmpi/4.1.7(default)  
+cal: unknown month name: om3.cice*.????
+Connection refused
+qsub: cannot connect to server gadi-pb (errno=15010)
+Traceback (most recent call last):
+  File "/g/data/vk83/prerelease/apps/payu/dev/lib/python3.10/site-packages/payu/fsops.py", line 277, in run_script_command
+    _run_script(script_cmd, control_path)
+  File "/g/data/vk83/prerelease/apps/payu/dev/lib/python3.10/site-packages/payu/fsops.py", line 320, in _run_script
+    subprocess.check_call(shlex.split(script_cmd))
+  File "/g/data/vk83/prerelease/apps/payu/dev/lib/python3.10/subprocess.py", line 369, in check_call
+    raise CalledProcessError(retcode, cmd)
+subprocess.CalledProcessError: Command '['/usr/bin/bash', '/g/data/vk83/apps/om3-scripts/payu_config/archive.sh']' returned non-zero exit status 162.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/g/data/vk83/prerelease/apps/payu/dev/bin/payu-run", line 8, in <module>
+    sys.exit(runscript())
+  File "/g/data/vk83/prerelease/apps/payu/dev/lib/python3.10/site-packages/payu/subcommands/run_cmd.py", line 135, in runscript
+    expt.archive(force_prune_restarts=run_args.force_prune_restarts)
+  File "/g/data/vk83/prerelease/apps/payu/dev/lib/python3.10/site-packages/payu/experiment.py", line 847, in archive
+    self.run_userscript(archive_script)
+  File "/g/data/vk83/prerelease/apps/payu/dev/lib/python3.10/site-packages/payu/experiment.py", line 936, in run_userscript
+    run_script_command(script_cmd,
+  File "/g/data/vk83/prerelease/apps/payu/dev/lib/python3.10/site-packages/payu/fsops.py", line 280, in run_script_command
+    raise RuntimeError(error_msg) from e
+RuntimeError: User defined script/command failed to run: /usr/bin/bash /g/data/vk83/apps/om3-scripts/payu_config/archive.sh

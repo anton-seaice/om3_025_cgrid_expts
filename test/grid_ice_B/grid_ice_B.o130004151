@@ -1,0 +1,59 @@
+laboratory path:  /scratch/tm70/as2285/access-om3
+binary path:  /scratch/tm70/as2285/access-om3/bin
+input path:  /scratch/tm70/as2285/access-om3/input
+work path:  /scratch/tm70/as2285/access-om3/work
+archive path:  /scratch/tm70/as2285/access-om3/archive
+Found experiment archive: /scratch/tm70/as2285/access-om3/archive/grid_ice_B-perturb-e825e9ea
+nruns: 1 nruns_per_submit: 1 subrun: 1
+payu: Found modules in /opt/Modules/v4.3.0
+Loading input manifest: manifests/input.yaml
+Loading restart manifest: manifests/restart.yaml
+Loading exe manifest: manifests/exe.yaml
+Setting up access-om3
+Checking exe, input and restart manifests
+LOG: skipping concatenating daily sea ice files (incomplete month)
+130006420.gadi-pbs
+130006422.gadi-pbs
+Loading input manifest: manifests/input.yaml
+Loading restart manifest: manifests/restart.yaml
+Loading exe manifest: manifests/exe.yaml
+payu: Found modules in /opt/Modules/v4.3.0
+qsub -q copyq -P tm70 -l walltime=10:00:00 -l ncpus=1 -l mem=2GB -l jobfs=10GB -N grid_ice_B_s -l wd -j n -v PAYU_PATH=/g/data/vk83/prerelease/apps/payu/dev/bin,MODULESHOME=/opt/Modules/v4.3.0,MODULES_CMD=/opt/Modules/v4.3.0/libexec/modulecmd.tcl,MODULEPATH=/g/data/tm70/as2285/spack0.22/release/modules/linux-rocky8-x86_64:/g/data/vk83/prerelease/modules:/etc/scl/modulefiles:/etc/scl/modulefiles:/etc/scl/modulefiles:/opt/Modules/modulefiles:/opt/Modules/v4.3.0/modulefiles:/apps/Modules/modulefiles -l storage=gdata/tm70+gdata/vk83+scratch/tm70 -- /g/data/vk83/prerelease/apps/payu/dev/bin/python /g/data/vk83/prerelease/apps/payu/dev/bin/payu-sync
+Writing manifests/restart.yaml
+/usr/bin/bash /g/data/vk83/apps/om3-scripts/payu_config/setup.sh
+mod access-om3-nuopc/mom-trunc
+mod access-om3/2024.09.mom-trunc
+mod nco/5.0.5
+git add /g/data/tm70/as2285/om3-scripts/expts_manager/test/grid_ice_B/config.yaml
+git add /g/data/tm70/as2285/om3-scripts/expts_manager/test/grid_ice_B/drv_in
+git add /g/data/tm70/as2285/om3-scripts/expts_manager/test/grid_ice_B/fd.yaml
+git add /g/data/tm70/as2285/om3-scripts/expts_manager/test/grid_ice_B/nuopc.runconfig
+git add /g/data/tm70/as2285/om3-scripts/expts_manager/test/grid_ice_B/nuopc.runseq
+git add /g/data/tm70/as2285/om3-scripts/expts_manager/test/grid_ice_B/input.nml
+git add /g/data/tm70/as2285/om3-scripts/expts_manager/test/grid_ice_B/diag_table
+git add /g/data/tm70/as2285/om3-scripts/expts_manager/test/grid_ice_B/ice_in
+git add /g/data/tm70/as2285/om3-scripts/expts_manager/test/grid_ice_B/datm_in
+git add /g/data/tm70/as2285/om3-scripts/expts_manager/test/grid_ice_B/datm.streams.xml
+git add /g/data/tm70/as2285/om3-scripts/expts_manager/test/grid_ice_B/drof_in
+git add /g/data/tm70/as2285/om3-scripts/expts_manager/test/grid_ice_B/drof.streams.xml
+git add /g/data/tm70/as2285/om3-scripts/expts_manager/test/grid_ice_B/MOM_input
+git add /g/data/tm70/as2285/om3-scripts/expts_manager/test/grid_ice_B/MOM_override
+git add manifests/input.yaml
+git add manifests/restart.yaml
+git add manifests/exe.yaml
+git commit -am "2024-12-03 15:47:55: Run 5"
+mpirun  -wdir /scratch/tm70/as2285/access-om3/work/grid_ice_B-perturb-e825e9ea -np 1440  /scratch/tm70/as2285/access-om3/work/grid_ice_B-perturb-e825e9ea/access-om3-MOM6-CICE6
+/usr/bin/bash /g/data/vk83/apps/om3-scripts/payu_config/archive.sh
+
+======================================================================================
+                  Resource Usage on 2024-12-03 16:09:05:
+   Job Id:             130004151.gadi-pbs
+   Project:            tm70
+   Exit Status:        0
+   Service Units:      1022.40
+   NCPUs Requested:    1440                   NCPUs Used: 1440            
+                                           CPU Time Used: 496:10:55       
+   Memory Requested:   5.62TB                Memory Used: 656.79GB        
+   Walltime requested: 24:00:00            Walltime Used: 00:21:18        
+   JobFS requested:    10.0GB                 JobFS used: 8.16MB          
+======================================================================================

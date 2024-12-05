@@ -1,0 +1,433 @@
+sending incremental file list
+output003/
+output003/MOM_IC.nc
+output003/MOM_IC_1.nc
+output003/MOM_IC_2.nc
+output003/MOM_auto_mask_table
+output003/MOM_input
+output003/MOM_override
+output003/MOM_parameter_doc.all
+output003/MOM_parameter_doc.debugging
+output003/MOM_parameter_doc.layout
+output003/MOM_parameter_doc.short
+output003/Vertical_coordinate.nc
+output003/access-om3.cice.1901-03-16.nc
+output003/access-om3.cice.1901-03-17.nc
+output003/access-om3.cice.1901-03-18.nc
+output003/access-om3.cice.1901-03-19.nc
+output003/access-om3.cice.1901-03-20.nc
+output003/access-om3.cice_inst.1901-03-16-01350.nc
+output003/access-om3.cice_inst.1901-03-16-02700.nc
+output003/access-om3.cice_inst.1901-03-16-04050.nc
+output003/access-om3.cice_inst.1901-03-16-05400.nc
+output003/access-om3.cice_inst.1901-03-16-06750.nc
+output003/access-om3.cice_inst.1901-03-16-08100.nc
+output003/access-om3.cice_inst.1901-03-16-09450.nc
+output003/access-om3.cice_inst.1901-03-16-10800.nc
+output003/access-om3.cice_inst.1901-03-16-12150.nc
+output003/access-om3.cice_inst.1901-03-16-13500.nc
+output003/access-om3.cice_inst.1901-03-16-14850.nc
+output003/access-om3.cice_inst.1901-03-16-16200.nc
+output003/access-om3.cice_inst.1901-03-16-17550.nc
+output003/access-om3.cice_inst.1901-03-16-18900.nc
+output003/access-om3.cice_inst.1901-03-16-20250.nc
+output003/access-om3.cice_inst.1901-03-16-21600.nc
+output003/access-om3.cice_inst.1901-03-16-22950.nc
+output003/access-om3.cice_inst.1901-03-16-24300.nc
+output003/access-om3.cice_inst.1901-03-16-25650.nc
+output003/access-om3.cice_inst.1901-03-16-27000.nc
+output003/access-om3.cice_inst.1901-03-16-28350.nc
+output003/access-om3.cice_inst.1901-03-16-29700.nc
+output003/access-om3.cice_inst.1901-03-16-31050.nc
+output003/access-om3.cice_inst.1901-03-16-32400.nc
+output003/access-om3.cice_inst.1901-03-16-33750.nc
+output003/access-om3.cice_inst.1901-03-16-35100.nc
+output003/access-om3.cice_inst.1901-03-16-36450.nc
+output003/access-om3.cice_inst.1901-03-16-37800.nc
+output003/access-om3.cice_inst.1901-03-16-39150.nc
+output003/access-om3.cice_inst.1901-03-16-40500.nc
+output003/access-om3.cice_inst.1901-03-16-41850.nc
+output003/access-om3.cice_inst.1901-03-16-43200.nc
+output003/access-om3.cice_inst.1901-03-16-44550.nc
+output003/access-om3.cice_inst.1901-03-16-45900.nc
+output003/access-om3.cice_inst.1901-03-16-47250.nc
+output003/access-om3.cice_inst.1901-03-16-48600.nc
+output003/access-om3.cice_inst.1901-03-16-49950.nc
+output003/access-om3.cice_inst.1901-03-16-51300.nc
+output003/access-om3.cice_inst.1901-03-16-52650.nc
+output003/access-om3.cice_inst.1901-03-16-54000.nc
+output003/access-om3.cice_inst.1901-03-16-55350.nc
+output003/access-om3.cice_inst.1901-03-16-56700.nc
+output003/access-om3.cice_inst.1901-03-16-58050.nc
+output003/access-om3.cice_inst.1901-03-16-59400.nc
+output003/access-om3.cice_inst.1901-03-16-60750.nc
+output003/access-om3.cice_inst.1901-03-16-62100.nc
+output003/access-om3.cice_inst.1901-03-16-63450.nc
+output003/access-om3.cice_inst.1901-03-16-64800.nc
+output003/access-om3.cice_inst.1901-03-16-66150.nc
+output003/access-om3.cice_inst.1901-03-16-67500.nc
+output003/access-om3.cice_inst.1901-03-16-68850.nc
+output003/access-om3.cice_inst.1901-03-16-70200.nc
+output003/access-om3.cice_inst.1901-03-16-71550.nc
+output003/access-om3.cice_inst.1901-03-16-72900.nc
+output003/access-om3.cice_inst.1901-03-16-74250.nc
+output003/access-om3.cice_inst.1901-03-16-75600.nc
+output003/access-om3.cice_inst.1901-03-16-76950.nc
+output003/access-om3.cice_inst.1901-03-16-78300.nc
+output003/access-om3.cice_inst.1901-03-16-79650.nc
+output003/access-om3.cice_inst.1901-03-16-81000.nc
+output003/access-om3.cice_inst.1901-03-16-82350.nc
+output003/access-om3.cice_inst.1901-03-16-83700.nc
+output003/access-om3.cice_inst.1901-03-16-85050.nc
+output003/access-om3.cice_inst.1901-03-17-00000.nc
+output003/access-om3.cice_inst.1901-03-17-01350.nc
+output003/access-om3.cice_inst.1901-03-17-02700.nc
+output003/access-om3.cice_inst.1901-03-17-04050.nc
+output003/access-om3.cice_inst.1901-03-17-05400.nc
+output003/access-om3.cice_inst.1901-03-17-06750.nc
+output003/access-om3.cice_inst.1901-03-17-08100.nc
+output003/access-om3.cice_inst.1901-03-17-09450.nc
+output003/access-om3.cice_inst.1901-03-17-10800.nc
+output003/access-om3.cice_inst.1901-03-17-12150.nc
+output003/access-om3.cice_inst.1901-03-17-13500.nc
+output003/access-om3.cice_inst.1901-03-17-14850.nc
+output003/access-om3.cice_inst.1901-03-17-16200.nc
+output003/access-om3.cice_inst.1901-03-17-17550.nc
+output003/access-om3.cice_inst.1901-03-17-18900.nc
+output003/access-om3.cice_inst.1901-03-17-20250.nc
+output003/access-om3.cice_inst.1901-03-17-21600.nc
+output003/access-om3.cice_inst.1901-03-17-22950.nc
+output003/access-om3.cice_inst.1901-03-17-24300.nc
+output003/access-om3.cice_inst.1901-03-17-25650.nc
+output003/access-om3.cice_inst.1901-03-17-27000.nc
+output003/access-om3.cice_inst.1901-03-17-28350.nc
+output003/access-om3.cice_inst.1901-03-17-29700.nc
+output003/access-om3.cice_inst.1901-03-17-31050.nc
+output003/access-om3.cice_inst.1901-03-17-32400.nc
+output003/access-om3.cice_inst.1901-03-17-33750.nc
+output003/access-om3.cice_inst.1901-03-17-35100.nc
+output003/access-om3.cice_inst.1901-03-17-36450.nc
+output003/access-om3.cice_inst.1901-03-17-37800.nc
+output003/access-om3.cice_inst.1901-03-17-39150.nc
+output003/access-om3.cice_inst.1901-03-17-40500.nc
+output003/access-om3.cice_inst.1901-03-17-41850.nc
+output003/access-om3.cice_inst.1901-03-17-43200.nc
+output003/access-om3.cice_inst.1901-03-17-44550.nc
+output003/access-om3.cice_inst.1901-03-17-45900.nc
+output003/access-om3.cice_inst.1901-03-17-47250.nc
+output003/access-om3.cice_inst.1901-03-17-48600.nc
+output003/access-om3.cice_inst.1901-03-17-49950.nc
+output003/access-om3.cice_inst.1901-03-17-51300.nc
+output003/access-om3.cice_inst.1901-03-17-52650.nc
+output003/access-om3.cice_inst.1901-03-17-54000.nc
+output003/access-om3.cice_inst.1901-03-17-55350.nc
+output003/access-om3.cice_inst.1901-03-17-56700.nc
+output003/access-om3.cice_inst.1901-03-17-58050.nc
+output003/access-om3.cice_inst.1901-03-17-59400.nc
+output003/access-om3.cice_inst.1901-03-17-60750.nc
+output003/access-om3.cice_inst.1901-03-17-62100.nc
+output003/access-om3.cice_inst.1901-03-17-63450.nc
+output003/access-om3.cice_inst.1901-03-17-64800.nc
+output003/access-om3.cice_inst.1901-03-17-66150.nc
+output003/access-om3.cice_inst.1901-03-17-67500.nc
+output003/access-om3.cice_inst.1901-03-17-68850.nc
+output003/access-om3.cice_inst.1901-03-17-70200.nc
+output003/access-om3.cice_inst.1901-03-17-71550.nc
+output003/access-om3.cice_inst.1901-03-17-72900.nc
+output003/access-om3.cice_inst.1901-03-17-74250.nc
+output003/access-om3.cice_inst.1901-03-17-75600.nc
+output003/access-om3.cice_inst.1901-03-17-76950.nc
+output003/access-om3.cice_inst.1901-03-17-78300.nc
+output003/access-om3.cice_inst.1901-03-17-79650.nc
+output003/access-om3.cice_inst.1901-03-17-81000.nc
+output003/access-om3.cice_inst.1901-03-17-82350.nc
+output003/access-om3.cice_inst.1901-03-17-83700.nc
+output003/access-om3.cice_inst.1901-03-17-85050.nc
+output003/access-om3.cice_inst.1901-03-18-00000.nc
+output003/access-om3.cice_inst.1901-03-18-01350.nc
+output003/access-om3.cice_inst.1901-03-18-02700.nc
+output003/access-om3.cice_inst.1901-03-18-04050.nc
+output003/access-om3.cice_inst.1901-03-18-05400.nc
+output003/access-om3.cice_inst.1901-03-18-06750.nc
+output003/access-om3.cice_inst.1901-03-18-08100.nc
+output003/access-om3.cice_inst.1901-03-18-09450.nc
+output003/access-om3.cice_inst.1901-03-18-10800.nc
+output003/access-om3.cice_inst.1901-03-18-12150.nc
+output003/access-om3.cice_inst.1901-03-18-13500.nc
+output003/access-om3.cice_inst.1901-03-18-14850.nc
+output003/access-om3.cice_inst.1901-03-18-16200.nc
+output003/access-om3.cice_inst.1901-03-18-17550.nc
+output003/access-om3.cice_inst.1901-03-18-18900.nc
+output003/access-om3.cice_inst.1901-03-18-20250.nc
+output003/access-om3.cice_inst.1901-03-18-21600.nc
+output003/access-om3.cice_inst.1901-03-18-22950.nc
+output003/access-om3.cice_inst.1901-03-18-24300.nc
+output003/access-om3.cice_inst.1901-03-18-25650.nc
+output003/access-om3.cice_inst.1901-03-18-27000.nc
+output003/access-om3.cice_inst.1901-03-18-28350.nc
+output003/access-om3.cice_inst.1901-03-18-29700.nc
+output003/access-om3.cice_inst.1901-03-18-31050.nc
+output003/access-om3.cice_inst.1901-03-18-32400.nc
+output003/access-om3.cice_inst.1901-03-18-33750.nc
+output003/access-om3.cice_inst.1901-03-18-35100.nc
+output003/access-om3.cice_inst.1901-03-18-36450.nc
+output003/access-om3.cice_inst.1901-03-18-37800.nc
+output003/access-om3.cice_inst.1901-03-18-39150.nc
+output003/access-om3.cice_inst.1901-03-18-40500.nc
+output003/access-om3.cice_inst.1901-03-18-41850.nc
+output003/access-om3.cice_inst.1901-03-18-43200.nc
+output003/access-om3.cice_inst.1901-03-18-44550.nc
+output003/access-om3.cice_inst.1901-03-18-45900.nc
+output003/access-om3.cice_inst.1901-03-18-47250.nc
+output003/access-om3.cice_inst.1901-03-18-48600.nc
+output003/access-om3.cice_inst.1901-03-18-49950.nc
+output003/access-om3.cice_inst.1901-03-18-51300.nc
+output003/access-om3.cice_inst.1901-03-18-52650.nc
+output003/access-om3.cice_inst.1901-03-18-54000.nc
+output003/access-om3.cice_inst.1901-03-18-55350.nc
+output003/access-om3.cice_inst.1901-03-18-56700.nc
+output003/access-om3.cice_inst.1901-03-18-58050.nc
+output003/access-om3.cice_inst.1901-03-18-59400.nc
+output003/access-om3.cice_inst.1901-03-18-60750.nc
+output003/access-om3.cice_inst.1901-03-18-62100.nc
+output003/access-om3.cice_inst.1901-03-18-63450.nc
+output003/access-om3.cice_inst.1901-03-18-64800.nc
+output003/access-om3.cice_inst.1901-03-18-66150.nc
+output003/access-om3.cice_inst.1901-03-18-67500.nc
+output003/access-om3.cice_inst.1901-03-18-68850.nc
+output003/access-om3.cice_inst.1901-03-18-70200.nc
+output003/access-om3.cice_inst.1901-03-18-71550.nc
+output003/access-om3.cice_inst.1901-03-18-72900.nc
+output003/access-om3.cice_inst.1901-03-18-74250.nc
+output003/access-om3.cice_inst.1901-03-18-75600.nc
+output003/access-om3.cice_inst.1901-03-18-76950.nc
+output003/access-om3.cice_inst.1901-03-18-78300.nc
+output003/access-om3.cice_inst.1901-03-18-79650.nc
+output003/access-om3.cice_inst.1901-03-18-81000.nc
+output003/access-om3.cice_inst.1901-03-18-82350.nc
+output003/access-om3.cice_inst.1901-03-18-83700.nc
+output003/access-om3.cice_inst.1901-03-18-85050.nc
+output003/access-om3.cice_inst.1901-03-19-00000.nc
+output003/access-om3.cice_inst.1901-03-19-01350.nc
+output003/access-om3.cice_inst.1901-03-19-02700.nc
+output003/access-om3.cice_inst.1901-03-19-04050.nc
+output003/access-om3.cice_inst.1901-03-19-05400.nc
+output003/access-om3.cice_inst.1901-03-19-06750.nc
+output003/access-om3.cice_inst.1901-03-19-08100.nc
+output003/access-om3.cice_inst.1901-03-19-09450.nc
+output003/access-om3.cice_inst.1901-03-19-10800.nc
+output003/access-om3.cice_inst.1901-03-19-12150.nc
+output003/access-om3.cice_inst.1901-03-19-13500.nc
+output003/access-om3.cice_inst.1901-03-19-14850.nc
+output003/access-om3.cice_inst.1901-03-19-16200.nc
+output003/access-om3.cice_inst.1901-03-19-17550.nc
+output003/access-om3.cice_inst.1901-03-19-18900.nc
+output003/access-om3.cice_inst.1901-03-19-20250.nc
+output003/access-om3.cice_inst.1901-03-19-21600.nc
+output003/access-om3.cice_inst.1901-03-19-22950.nc
+output003/access-om3.cice_inst.1901-03-19-24300.nc
+output003/access-om3.cice_inst.1901-03-19-25650.nc
+output003/access-om3.cice_inst.1901-03-19-27000.nc
+output003/access-om3.cice_inst.1901-03-19-28350.nc
+output003/access-om3.cice_inst.1901-03-19-29700.nc
+output003/access-om3.cice_inst.1901-03-19-31050.nc
+output003/access-om3.cice_inst.1901-03-19-32400.nc
+output003/access-om3.cice_inst.1901-03-19-33750.nc
+output003/access-om3.cice_inst.1901-03-19-35100.nc
+output003/access-om3.cice_inst.1901-03-19-36450.nc
+output003/access-om3.cice_inst.1901-03-19-37800.nc
+output003/access-om3.cice_inst.1901-03-19-39150.nc
+output003/access-om3.cice_inst.1901-03-19-40500.nc
+output003/access-om3.cice_inst.1901-03-19-41850.nc
+output003/access-om3.cice_inst.1901-03-19-43200.nc
+output003/access-om3.cice_inst.1901-03-19-44550.nc
+output003/access-om3.cice_inst.1901-03-19-45900.nc
+output003/access-om3.cice_inst.1901-03-19-47250.nc
+output003/access-om3.cice_inst.1901-03-19-48600.nc
+output003/access-om3.cice_inst.1901-03-19-49950.nc
+output003/access-om3.cice_inst.1901-03-19-51300.nc
+output003/access-om3.cice_inst.1901-03-19-52650.nc
+output003/access-om3.cice_inst.1901-03-19-54000.nc
+output003/access-om3.cice_inst.1901-03-19-55350.nc
+output003/access-om3.cice_inst.1901-03-19-56700.nc
+output003/access-om3.cice_inst.1901-03-19-58050.nc
+output003/access-om3.cice_inst.1901-03-19-59400.nc
+output003/access-om3.cice_inst.1901-03-19-60750.nc
+output003/access-om3.cice_inst.1901-03-19-62100.nc
+output003/access-om3.cice_inst.1901-03-19-63450.nc
+output003/access-om3.cice_inst.1901-03-19-64800.nc
+output003/access-om3.cice_inst.1901-03-19-66150.nc
+output003/access-om3.cice_inst.1901-03-19-67500.nc
+output003/access-om3.cice_inst.1901-03-19-68850.nc
+output003/access-om3.cice_inst.1901-03-19-70200.nc
+output003/access-om3.cice_inst.1901-03-19-71550.nc
+output003/access-om3.cice_inst.1901-03-19-72900.nc
+output003/access-om3.cice_inst.1901-03-19-74250.nc
+output003/access-om3.cice_inst.1901-03-19-75600.nc
+output003/access-om3.cice_inst.1901-03-19-76950.nc
+output003/access-om3.cice_inst.1901-03-19-78300.nc
+output003/access-om3.cice_inst.1901-03-19-79650.nc
+output003/access-om3.cice_inst.1901-03-19-81000.nc
+output003/access-om3.cice_inst.1901-03-19-82350.nc
+output003/access-om3.cice_inst.1901-03-19-83700.nc
+output003/access-om3.cice_inst.1901-03-19-85050.nc
+output003/access-om3.cice_inst.1901-03-20-00000.nc
+output003/access-om3.cice_inst.1901-03-20-01350.nc
+output003/access-om3.cice_inst.1901-03-20-02700.nc
+output003/access-om3.cice_inst.1901-03-20-04050.nc
+output003/access-om3.cice_inst.1901-03-20-05400.nc
+output003/access-om3.cice_inst.1901-03-20-06750.nc
+output003/access-om3.cice_inst.1901-03-20-08100.nc
+output003/access-om3.cice_inst.1901-03-20-09450.nc
+output003/access-om3.cice_inst.1901-03-20-10800.nc
+output003/access-om3.cice_inst.1901-03-20-12150.nc
+output003/access-om3.cice_inst.1901-03-20-13500.nc
+output003/access-om3.cice_inst.1901-03-20-14850.nc
+output003/access-om3.cice_inst.1901-03-20-16200.nc
+output003/access-om3.cice_inst.1901-03-20-17550.nc
+output003/access-om3.cice_inst.1901-03-20-18900.nc
+output003/access-om3.cice_inst.1901-03-20-20250.nc
+output003/access-om3.cice_inst.1901-03-20-21600.nc
+output003/access-om3.cice_inst.1901-03-20-22950.nc
+output003/access-om3.cice_inst.1901-03-20-24300.nc
+output003/access-om3.cice_inst.1901-03-20-25650.nc
+output003/access-om3.cice_inst.1901-03-20-27000.nc
+output003/access-om3.cice_inst.1901-03-20-28350.nc
+output003/access-om3.cice_inst.1901-03-20-29700.nc
+output003/access-om3.cice_inst.1901-03-20-31050.nc
+output003/access-om3.cice_inst.1901-03-20-32400.nc
+output003/access-om3.cice_inst.1901-03-20-33750.nc
+output003/access-om3.cice_inst.1901-03-20-35100.nc
+output003/access-om3.cice_inst.1901-03-20-36450.nc
+output003/access-om3.cice_inst.1901-03-20-37800.nc
+output003/access-om3.cice_inst.1901-03-20-39150.nc
+output003/access-om3.cice_inst.1901-03-20-40500.nc
+output003/access-om3.cice_inst.1901-03-20-41850.nc
+output003/access-om3.cice_inst.1901-03-20-43200.nc
+output003/access-om3.cice_inst.1901-03-20-44550.nc
+output003/access-om3.cice_inst.1901-03-20-45900.nc
+output003/access-om3.cice_inst.1901-03-20-47250.nc
+output003/access-om3.cice_inst.1901-03-20-48600.nc
+output003/access-om3.cice_inst.1901-03-20-49950.nc
+output003/access-om3.cice_inst.1901-03-20-51300.nc
+output003/access-om3.cice_inst.1901-03-20-52650.nc
+output003/access-om3.cice_inst.1901-03-20-54000.nc
+output003/access-om3.cice_inst.1901-03-20-55350.nc
+output003/access-om3.cice_inst.1901-03-20-56700.nc
+output003/access-om3.cice_inst.1901-03-20-58050.nc
+output003/access-om3.cice_inst.1901-03-20-59400.nc
+output003/access-om3.cice_inst.1901-03-20-60750.nc
+output003/access-om3.cice_inst.1901-03-20-62100.nc
+output003/access-om3.cice_inst.1901-03-20-63450.nc
+output003/access-om3.cice_inst.1901-03-20-64800.nc
+output003/access-om3.cice_inst.1901-03-20-66150.nc
+output003/access-om3.cice_inst.1901-03-20-67500.nc
+output003/access-om3.cice_inst.1901-03-20-68850.nc
+output003/access-om3.cice_inst.1901-03-20-70200.nc
+output003/access-om3.cice_inst.1901-03-20-71550.nc
+output003/access-om3.cice_inst.1901-03-20-72900.nc
+output003/access-om3.cice_inst.1901-03-20-74250.nc
+output003/access-om3.cice_inst.1901-03-20-75600.nc
+output003/access-om3.cice_inst.1901-03-20-76950.nc
+output003/access-om3.cice_inst.1901-03-20-78300.nc
+output003/access-om3.cice_inst.1901-03-20-79650.nc
+output003/access-om3.cice_inst.1901-03-20-81000.nc
+output003/access-om3.cice_inst.1901-03-20-82350.nc
+output003/access-om3.cice_inst.1901-03-20-83700.nc
+output003/access-om3.cice_inst.1901-03-20-85050.nc
+output003/access-om3.cice_inst.1901-03-21-00000.nc
+output003/access-om3.err
+output003/access-om3.mom6.h.native1901_03.nc
+output003/access-om3.mom6.h.sfc1901_03_16.nc
+output003/access-om3.mom6.h.sfc1901_03_17.nc
+output003/access-om3.mom6.h.sfc1901_03_18.nc
+output003/access-om3.mom6.h.sfc1901_03_19.nc
+output003/access-om3.mom6.h.sfc1901_03_20.nc
+output003/access-om3.mom6.h.static.nc
+output003/access-om3.mom6.h.z1901_03.nc
+output003/access-om3.out
+output003/available_diags.000000
+output003/config.yaml
+output003/datm.streams.xml
+output003/datm_in
+output003/diag_table
+output003/drof.streams.xml
+output003/drof_in
+output003/drv_in
+output003/env.yaml
+output003/fd.yaml
+output003/ice_in
+output003/input.nml
+output003/job.yaml
+output003/logfile.000000.out
+output003/nuopc.runconfig
+output003/nuopc.runseq
+output003/ocean.stats
+output003/ocean.stats.nc
+output003/log/
+output003/log/atm.log
+output003/log/drv.log
+output003/log/ice.log
+output003/log/med.log
+output003/log/ocn.log
+output003/log/rof.log
+output003/manifests/
+output003/manifests/exe.yaml
+output003/manifests/input.yaml
+output003/manifests/restart.yaml
+
+sent 23,138,072,197 bytes  received 7,123 bytes  106,381,973.89 bytes/sec
+total size is 23,132,400,840  speedup is 1.00
+sending incremental file list
+
+sent 9,139 bytes  received 19 bytes  6,105.33 bytes/sec
+total size is 23,287,271,964  speedup is 2,542,833.80
+sending incremental file list
+
+sent 9,253 bytes  received 19 bytes  3,708.80 bytes/sec
+total size is 23,190,468,495  speedup is 2,501,129.04
+sending incremental file list
+
+sent 9,243 bytes  received 19 bytes  18,524.00 bytes/sec
+total size is 23,111,086,006  speedup is 2,495,258.69
+sending incremental file list
+
+sent 183 bytes  received 17 bytes  400.00 bytes/sec
+total size is 3,624,564  speedup is 18,122.82
+sending incremental file list
+
+sent 156 bytes  received 17 bytes  346.00 bytes/sec
+total size is 6,180  speedup is 35.72
+sending incremental file list
+metadata.yaml
+
+sent 1,259 bytes  received 35 bytes  2,588.00 bytes/sec
+total size is 1,157  speedup is 0.89
+laboratory path:  /scratch/tm70/as2285/access-om3
+binary path:  /scratch/tm70/as2285/access-om3/bin
+input path:  /scratch/tm70/as2285/access-om3/input
+work path:  /scratch/tm70/as2285/access-om3/work
+archive path:  /scratch/tm70/as2285/access-om3/archive
+Found experiment archive: /scratch/tm70/as2285/access-om3/archive/dev-025_crid-ctrl-86752e50
+payu: Found modules in /opt/Modules/v4.3.0
+rsync -vrltoD --safe-links  /scratch/tm70/as2285/access-om3/archive/dev-025_crid-ctrl-86752e50/output003 /g/data/tm70/as2285/experiments/025deg_jra55do_ryf_cgrid
+rsync -vrltoD --safe-links   /scratch/tm70/as2285/access-om3/archive/dev-025_crid-ctrl-86752e50/output000 /g/data/tm70/as2285/experiments/025deg_jra55do_ryf_cgrid
+rsync -vrltoD --safe-links   /scratch/tm70/as2285/access-om3/archive/dev-025_crid-ctrl-86752e50/output001 /g/data/tm70/as2285/experiments/025deg_jra55do_ryf_cgrid
+rsync -vrltoD --safe-links   /scratch/tm70/as2285/access-om3/archive/dev-025_crid-ctrl-86752e50/output002 /g/data/tm70/as2285/experiments/025deg_jra55do_ryf_cgrid
+rsync -vrltoD --safe-links  /scratch/tm70/as2285/access-om3/archive/dev-025_crid-ctrl-86752e50/error_logs /g/data/tm70/as2285/experiments/025deg_jra55do_ryf_cgrid
+rsync -vrltoD --safe-links  /scratch/tm70/as2285/access-om3/archive/dev-025_crid-ctrl-86752e50/pbs_logs /g/data/tm70/as2285/experiments/025deg_jra55do_ryf_cgrid
+rsync -vrltoD --safe-links  /scratch/tm70/as2285/access-om3/archive/dev-025_crid-ctrl-86752e50/metadata.yaml /g/data/tm70/as2285/experiments/025deg_jra55do_ryf_cgrid
+Updating git-runlog at /g/data/tm70/as2285/experiments/025deg_jra55do_ryf_cgrid/git-runlog
+
+======================================================================================
+                  Resource Usage on 2024-11-19 18:14:48:
+   Job Id:             129001171.gadi-pbs
+   Project:            tm70
+   Exit Status:        0
+   Service Units:      0.12
+   NCPUs Requested:    1                      NCPUs Used: 1               
+                                           CPU Time Used: 00:03:23        
+   Memory Requested:   2.0GB                 Memory Used: 2.0GB           
+   Walltime requested: 10:00:00            Walltime Used: 00:03:43        
+   JobFS requested:    10.0GB                 JobFS used: 0B              
+======================================================================================

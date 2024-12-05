@@ -1,0 +1,228 @@
+
+# =====================================================================================
+# YAML Configuration for Expts_manager.py
+# =====================================================================================
+# This configuration file defining the parameters and settings required for cloning,
+# setting up, and running control and perturbation experiments using `Expts_manager.py`.
+# Detailed explanations are provided to ensure the configuration is straightforward.
+# =====================================================================================
+
+
+# ============ Model Selection ========================================================
+
+model: access-om3  # Specify the model to be used. Options: 'access-om2', 'access-om3'
+
+# ============ Utility Tool Configuration (only for access-om3) =======================
+# The following configuration provides the necessary tools to:
+# 1. Parse parameters and comments from `MOM_input` in MOM6.
+# 2. Read and write the `nuopc.runconfig` file.
+
+force_overwrite_tools: False
+utils_url: https://github.com/minghangli-uni/om3-utils.git  # Git URL for the utility tool repository
+utils_branch_name: main  # The branch for which the utility tool will be checked out
+utils_dir_name: om3-utils  # Directory name for the utility tool (user-defined)
+
+# ============ Diagnostic Table (optional) ============================================
+# Configuration for customising the diagnostic table.
+
+diag_url: https://github.com/minghangli-uni/make_diag_table.git  # Git URL for the `make_diag_table`
+diag_branch_name: general_scheme1  # Branch for the `make_diag_table`
+diag_dir_name: make_diag_table  # Directory name for the `make_diag_table` (user-defined)
+diag_ctrl: False  # Set to 'True' to modify the diagnostic table for the control experiment
+diag_pert: False  # Set to 'True' to modify the diagnostic table for perturbation experiments
+
+# ============ Control Experiment Setup ===============================================
+
+base_url: https://github.com/anton-seaice/MOM6-CICE6  # Git URL for the control experiment repository
+base_commit: "be0dc6fa4b85de00b81ebd33eb7da75436276068"  # Commit hash to use; Please ensure it is a string!
+base_dir_name: dev-025_cgrid_25mar  # Directory name for cloning (user-defined)
+base_branch_name: ctrl  # Branch name for the experiment (user-defined)
+test_path: r_25march  # Relative path for all test (control and perturbation) runs (user-defined)
+
+# ============ Control Experiment Variables ===========================================
+# Allows modification of various control experiment settings.
+# 1. config.yaml  (access-om2 or access-om3)
+# 2. all namelists such as with endswith "_in" or ".nml" etc.  (access-om2 or access-om3)
+# 3. cpl_dt (coupling timestep)  (access-om3)
+# 4. nuopc.runconfig  (access-om3)
+# 5. MOM_input  (access-om3)
+# Below are some examples for the illustration purpose, please modify for your own settings.
+
+nuopc.runconfig:
+    CLOCK_attributes:
+        stop_option: ndays
+        stop_n: 1
+        restart_option: ndays
+        restart_n: 1
+
+    MED_attributes:
+        history_option_ice_avg: nsteps
+        history_option_ice_inst: nsteps
+        history_n_ice_avg: 1
+        history_n_ice_inst: 1
+
+ice_in:
+    icefields_mechred_nml:
+        f_ardg : 'd1'
+        f_vrdg : 'd1'
+        f_dvirdgdt: 'd1'
+        f_dvirdgndt: 'd1'
+
+
+config.yaml:
+    restart: /g/data/tm70/as2285/om3-scripts/expts_manager/test/dev-025_crid/archive/restart004
+
+# ============ Namelist Tunning ================================
+# Tune parameters across different model components.
+
+# Generalised structure
+# 1. Single-parameter tunning within single file
+# namelists:
+#     filename: (Required).
+#         filename_dirs: List of directory names (Optional - user-defined: filename must be appended with "_dirs"; additional strings may follow).
+#         groupname: (Required: for f90 namelists or nuopc.runconfig, this is simply the group name; for MOM input, use "MOM_list"; for nuopc.runseq, use "runseq_list").
+#             parameter1: list of values
+#             parameter2: list of values
+#             ...
+#     ...
+
+# 2. Multiple-parameter tuning within a single group in a single file
+# namelists:
+#     filename: (Required).
+#         filename_dirs: List of directory names (Optional - user-defined: filename must be appended with "_dirs"; additional strings may follow).
+#         groupname_combo: (Required: for f90 namelists or nuopc.runconfig, use the group name; for MOM input, use "MOM_list"; for nuopc.runseq, use "runseq_list", then append "_combo").
+#             parameter1: list of values
+#             parameter2: list of values
+#             ...
+#     ...
+        
+
+# 3. Multiple-parameter tuning across different files using user-defined directories
+# namelists:
+#     cross_block: (Required: additional strings may follow "cross_block").
+#         cross_block_dirs: List of directory names (Required - user-defined: filename must be appended with "_dirs"; additional strings may follow).
+#         filename:
+#             groupname_combo: (Required: for f90 namelists or nuopc.runconfig, use the group name; for MOM input, use "MOM_list"; for nuopc.runseq, use "runseq_list", then append "_combo").
+#                 parameter1: list of values
+#                 parameter2: list of values
+#                 ...
+#         filename:
+#             groupname_combo: (Required: for f90 namelists or nuopc.runconfig, use the group name; for MOM input, use "MOM_list"; for nuopc.runseq, use "runseq_list", then append "_combo").
+#                 parameter1: list of values
+#                 parameter2: list of values
+#                 ...
+#         ...
+#
+#     cross_block: (Required: may append other strings after "cross_block").
+#         cross_block_dirs: list of directory names (Optional - user-defined: filename must be appended with "_dirs", you may append other strings after "_dirs").
+#         filename:
+#             groupname_combo: (Required: for f90 namelists or nuopc.runconfig, just the group name; for MOM input, "MOM_list", nuopc.runseq, "runseq_list", then append "_combo" at the end).
+#                 parameter1: list of values
+#                 parameter2: list of values
+#                 ...
+#         filename:
+#             groupname_combo: (Required: for f90 namelists or nuopc.runconfig, just the group name; for MOM input, "MOM_list", nuopc.runseq, "runseq_list", then append "_combo" at the end).
+#                 parameter1: list of values
+#                 parameter2: list of values
+#                 ...
+#         ...
+#     ...
+
+# The following namelist options are provided as examples.
+# Note: Parameters should be based on the underlying physics.
+# Some configurations may fail to run or produce invalid results.
+# 1.1 Single parameter tuning within a single file using default perturbation directory names.
+# 1.2 Single parameter tuning within a single file using user-defined perturbation directory names.
+# 2.1 Multi-parameter tuning within a single group in a single file using default perturbation directory names.
+# 2.2 Multi-parameter tuning within a single group in a single file using user-defined perturbation directory names.
+# 3. Multi-parameter tuning across multiple files.
+
+namelists:
+    ice_in:
+
+        dynamics_nml:
+            ndte: [1200]
+            ktransport: [-1]
+            Cf: [0, 34]
+            revised_evp: [True]
+
+        setup_nml:
+            ndtd: [2]
+
+        dynamics_nml_combo:
+            kridge: [-1]
+            ktransport: [-1]
+
+    cross_block:
+        cross_block_dirs: ["hibler1", "hibler2", "hibler3"]
+        ice_in:
+            dynamics_nml_combo:
+                kstrength: [0, 0, 0]
+                Pstar: [2.75e4, 1e4, 2.75e4]
+                CStar: [20, 20, 10]
+
+    cross_block2:
+        cross_block2_dirs: ["slow-couple", "slow-couple-2700", "fast", "silly-fast"]
+        nuopc.runconfig:
+            CLOCK_attributes_combo:
+                ocn_cpl_dt: [1800, 2700, 675, 60]
+
+        nuopc.runseq:
+            runseq_list1_combo:
+                cpl_dt: [1800, 2700, 675, 60]
+        
+        MOM_input:
+            MOM_list1_combo:
+                DT : [900, 1350, 675, 60]
+                DT_THERM : [1800, 2700, 675, 60]
+                DTBT : [-0.98, -0.5, -0.98, -0.98]
+        ice_in:
+            setup_nml_combo:
+                ndtd: [2, 2, 1, 1]
+
+
+# ============ Perturbation Experiment Setup (Optional - access-om3) =======================
+# Configure settings for perturbation experiments. Currently, only `nuopc.runconfig` is supported.
+# If conducting parameter tuning for `nuopc.runconfig`, any pre-existing settings in this section 
+# will be purged by the above namelist tunning.
+
+
+# ============ Control experiment and perturbation Runs ===================================
+# This section configures the settings for running control experiments and their corresponding perturbation tests.
+    
+ctrl_nruns: 0
+# Number of control experiment runs.            
+# Default: 0.            
+# Adjust this value to set the number of iterations for the control experiment, which serves as the baseline for perturbations.
+
+run_namelists: True  
+# Determines whether to run using the specified namelists.            
+# Default: False.            
+# Set to 'True' to apply configurations from the namelist section; otherwise, 'False' to skip this step.
+
+check_duplicate_jobs: True  
+# Checks if there are duplicate PBS jobs within the same parent directory (`test_path`) based on their names.            
+# This check is useful when you have existing running jobs and want to add additional tests, which helps avoid conflicts by ensuring new jobs don't duplicate existing ones in the same `test_path`.            
+# The check will not be triggered if the jobs are located in different `test_path`. It only applies to jobs within the same `test_path` directory.            
+# Default: True.            
+# If duplicates are found, a message will be printed indicating the presence of duplicate runs and those runs will be skipped.
+
+check_skipping: False  
+# Checks if certain runs should be skipped based on pre-existing conditions or results. Currently only valid for nml type.            
+# Default: False.            
+# Set to 'True' if you want the system to skip runs under specific criteria; otherwise, keep it 'False'. Currently only valid for nml type.
+
+force_restart: False  
+# Controls whether to force a restart of the experiments regardless of existing initial conditions.            
+# Default: False.            
+# Set to 'True' to enforce a restart of the control and perturbation runs.
+
+startfrom: 'rest'  
+# Defines the starting point for perturbation tests.            
+# Options: a specific restart number of the control experiment, or 'rest' to start from the initial state.            
+# This parameter determines the initial condition for each perturbation test.
+
+nruns: 1  
+# Total number of output directories to generate for each Expts_manager member.            
+# Default: 0.            
+# Specifies how many runs of each perturbation experiment will be started; this number correlates with the different parameter combinations defined in the configuration.

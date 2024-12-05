@@ -1,0 +1,56 @@
+laboratory path:  /scratch/tm70/as2285/access-om3
+binary path:  /scratch/tm70/as2285/access-om3/bin
+input path:  /scratch/tm70/as2285/access-om3/input
+work path:  /scratch/tm70/as2285/access-om3/work
+archive path:  /scratch/tm70/as2285/access-om3/archive
+Found experiment archive: /scratch/tm70/as2285/access-om3/archive/ndtd_2-perturb-92d4a613
+nruns: 1 nruns_per_submit: 1 subrun: 1
+payu: work path already exists.
+      Sweeping as --force option is True.
+Moving log ndtd_2.e129989865
+Moving log ndtd_2.o129989865
+Removing work path /scratch/tm70/as2285/access-om3/work/ndtd_2-perturb-92d4a613
+Removing symlink /g/data/tm70/as2285/om3-scripts/expts_manager/r_25march/ndtd_2/work
+payu: Found modules in /opt/Modules/v4.3.0
+Loading input manifest: manifests/input.yaml
+Loading restart manifest: manifests/restart.yaml
+Loading exe manifest: manifests/exe.yaml
+Setting up access-om3
+Checking exe, input and restart manifests
+LOG: skipping concatenating daily sea ice files (incomplete month)
+/usr/bin/bash /g/data/vk83/apps/om3-scripts/payu_config/setup.sh
+mod access-om3-nuopc/mom-trunc
+mod access-om3/2024.09.mom-trunc
+mod nco/5.0.5
+git add /g/data/tm70/as2285/om3-scripts/expts_manager/r_25march/ndtd_2/config.yaml
+git add /g/data/tm70/as2285/om3-scripts/expts_manager/r_25march/ndtd_2/drv_in
+git add /g/data/tm70/as2285/om3-scripts/expts_manager/r_25march/ndtd_2/fd.yaml
+git add /g/data/tm70/as2285/om3-scripts/expts_manager/r_25march/ndtd_2/nuopc.runconfig
+git add /g/data/tm70/as2285/om3-scripts/expts_manager/r_25march/ndtd_2/nuopc.runseq
+git add /g/data/tm70/as2285/om3-scripts/expts_manager/r_25march/ndtd_2/input.nml
+git add /g/data/tm70/as2285/om3-scripts/expts_manager/r_25march/ndtd_2/diag_table
+git add /g/data/tm70/as2285/om3-scripts/expts_manager/r_25march/ndtd_2/ice_in
+git add /g/data/tm70/as2285/om3-scripts/expts_manager/r_25march/ndtd_2/datm_in
+git add /g/data/tm70/as2285/om3-scripts/expts_manager/r_25march/ndtd_2/datm.streams.xml
+git add /g/data/tm70/as2285/om3-scripts/expts_manager/r_25march/ndtd_2/drof_in
+git add /g/data/tm70/as2285/om3-scripts/expts_manager/r_25march/ndtd_2/drof.streams.xml
+git add /g/data/tm70/as2285/om3-scripts/expts_manager/r_25march/ndtd_2/MOM_input
+git add /g/data/tm70/as2285/om3-scripts/expts_manager/r_25march/ndtd_2/MOM_override
+git add manifests/input.yaml
+git add manifests/restart.yaml
+git add manifests/exe.yaml
+git commit -am "2024-12-03 14:20:41: Run 0"
+mpirun  -wdir /scratch/tm70/as2285/access-om3/work/ndtd_2-perturb-92d4a613 -np 1440  /scratch/tm70/as2285/access-om3/work/ndtd_2-perturb-92d4a613/access-om3-MOM6-CICE6
+
+======================================================================================
+                  Resource Usage on 2024-12-03 14:46:42:
+   Job Id:             129990624.gadi-pbs
+   Project:            tm70
+   Exit Status:        1
+   Service Units:      1235.20
+   NCPUs Requested:    1440                   NCPUs Used: 1440            
+                                           CPU Time Used: 549:05:07       
+   Memory Requested:   5.62TB                Memory Used: 660.98GB        
+   Walltime requested: 24:00:00            Walltime Used: 00:25:44        
+   JobFS requested:    10.0GB                 JobFS used: 8.16MB          
+======================================================================================

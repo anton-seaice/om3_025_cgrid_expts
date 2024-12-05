@@ -1,0 +1,52 @@
+laboratory path:  /scratch/tm70/as2285/access-om3
+binary path:  /scratch/tm70/as2285/access-om3/bin
+input path:  /scratch/tm70/as2285/access-om3/input
+work path:  /scratch/tm70/as2285/access-om3/work
+archive path:  /scratch/tm70/as2285/access-om3/archive
+Found experiment archive: /scratch/tm70/as2285/access-om3/archive/kridge_-1_ktransport_-1-perturb-27232a22
+nruns: 1 nruns_per_submit: 1 subrun: 1
+payu: Found modules in /opt/Modules/v4.3.0
+Loading input manifest: manifests/input.yaml
+Loading restart manifest: manifests/restart.yaml
+Loading exe manifest: manifests/exe.yaml
+Setting up access-om3
+Checking exe, input and restart manifests
+LOG: skipping concatenating daily sea ice files (incomplete month)
+129059261.gadi-pbs
+/usr/bin/bash /g/data/vk83/apps/om3-scripts/payu_config/setup.sh
+mod access-om3-nuopc/mom-trunc
+mod access-om3/2024.09.mom-trunc
+mod nco/5.0.5
+git add /g/data/tm70/as2285/om3-scripts/expts_manager/r_25march/kridge_-1_ktransport_-1/config.yaml
+git add /g/data/tm70/as2285/om3-scripts/expts_manager/r_25march/kridge_-1_ktransport_-1/drv_in
+git add /g/data/tm70/as2285/om3-scripts/expts_manager/r_25march/kridge_-1_ktransport_-1/fd.yaml
+git add /g/data/tm70/as2285/om3-scripts/expts_manager/r_25march/kridge_-1_ktransport_-1/nuopc.runconfig
+git add /g/data/tm70/as2285/om3-scripts/expts_manager/r_25march/kridge_-1_ktransport_-1/nuopc.runseq
+git add /g/data/tm70/as2285/om3-scripts/expts_manager/r_25march/kridge_-1_ktransport_-1/input.nml
+git add /g/data/tm70/as2285/om3-scripts/expts_manager/r_25march/kridge_-1_ktransport_-1/diag_table
+git add /g/data/tm70/as2285/om3-scripts/expts_manager/r_25march/kridge_-1_ktransport_-1/ice_in
+git add /g/data/tm70/as2285/om3-scripts/expts_manager/r_25march/kridge_-1_ktransport_-1/datm_in
+git add /g/data/tm70/as2285/om3-scripts/expts_manager/r_25march/kridge_-1_ktransport_-1/datm.streams.xml
+git add /g/data/tm70/as2285/om3-scripts/expts_manager/r_25march/kridge_-1_ktransport_-1/drof_in
+git add /g/data/tm70/as2285/om3-scripts/expts_manager/r_25march/kridge_-1_ktransport_-1/drof.streams.xml
+git add /g/data/tm70/as2285/om3-scripts/expts_manager/r_25march/kridge_-1_ktransport_-1/MOM_input
+git add /g/data/tm70/as2285/om3-scripts/expts_manager/r_25march/kridge_-1_ktransport_-1/MOM_override
+git add manifests/input.yaml
+git add manifests/restart.yaml
+git add manifests/exe.yaml
+git commit -am "2024-11-20 14:19:37: Run 0"
+mpirun  -wdir /scratch/tm70/as2285/access-om3/work/kridge_-1_ktransport_-1-perturb-27232a22 -np 1440  /scratch/tm70/as2285/access-om3/work/kridge_-1_ktransport_-1-perturb-27232a22/access-om3-MOM6-CICE6
+/usr/bin/bash /g/data/vk83/apps/om3-scripts/payu_config/archive.sh
+
+======================================================================================
+                  Resource Usage on 2024-11-20 14:54:54:
+   Job Id:             129056826.gadi-pbs
+   Project:            tm70
+   Exit Status:        0
+   Service Units:      1697.60
+   NCPUs Requested:    1440                   NCPUs Used: 1440            
+                                           CPU Time Used: 835:32:05       
+   Memory Requested:   5.62TB                Memory Used: 669.12GB        
+   Walltime requested: 24:00:00            Walltime Used: 00:35:22        
+   JobFS requested:    10.0GB                 JobFS used: 8.16MB          
+======================================================================================

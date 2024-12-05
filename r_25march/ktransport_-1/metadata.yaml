@@ -1,0 +1,25 @@
+experiment_uuid: 8604454d-2dc4-4365-95c5-0962662db730
+created: '2024-11-21'
+name: ktransport_-1-perturb-8604454d
+model: ACCESS-OM3
+url: /g/data/tm70/as2285/om3-scripts/expts_manager/r_25march/dev-025_cgrid_25mar
+contact: anton-seaice
+email: anton.steketee@anu.edu.au
+schema_version:  # The version of the schema (string)
+description: |2-
+
+  NOTE: this is a perturbation experiment, but the description above is for the control run.
+  This perturbation experiment is based on the control run /g/data/tm70/as2285/om3-scripts/expts_manager/r_25march/dev-025_cgrid_25mar from ctrl
+  but with initial condition rest.
+long_description: # Long description of the experiment (string)
+realm: # The realm(s) included in the experiment (string)
+frequency: # The frequency(/ies) included in the experiment (string)
+variable: # The variable(s) included in the experiment (string)
+nominal_resolution: # The nominal resolution(s) of model(s) used in the experiment (string)
+version: # The version of the experiment (number, string)
+reference: # Citation or reference information (string)
+license: # License of the experiment (string)
+parent_experiment: 86752e50-7dd0-4beb-a2e2-c6d0f72022fb # experiment_uuid for parent experiment if appropriate (string)
+related_experiments: # experiment_uuids for any related experiment(s) (string)
+notes: # Additional notes (string)
+keywords: dev-025_cgrid_25mar, perturb, ktransport

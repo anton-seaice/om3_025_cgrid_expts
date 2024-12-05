@@ -1,0 +1,54 @@
+[project]
+name = "om3utils"
+description = "TODO"
+keywords = ["COSIMA", "access-om3", "ocean modeling"]
+authors = [
+  {name = "Micael Oliveira"},
+]
+dynamic = ["version"]
+dependencies = [
+    "f90nml",
+    "ruamel.yaml",
+    "xarray",
+]
+
+[external]
+host-requires = [
+  "pkg:generic/libbabeltrace2",
+]
+
+[build-system]
+requires = ["setuptools", "setuptools_scm[toml]"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["om3utils"]
+
+[tool.setuptools_scm]
+write_to = "om3utils/_version.py"
+
+
+[project.optional-dependencies]
+devel = [
+    "flake8",
+    "black",
+    "pre-commit",
+]
+test = [
+    "pytest",
+    "pytest-cov",
+    "pytest-mock",
+]
+
+[tool.pytest.ini_options]
+addopts = ["--cov=om3utils", "--cov-report=term", "--cov-report=html", "--cov-report=xml"]
+testpaths = ["tests"]
+
+[tool.coverage.run]
+omit = ["om3utils/__init__.py", "om3utils/_version.py"]
+
+[tool.black]
+line-length = 120
+
+[tool.flake8]
+max-line-length = 120
